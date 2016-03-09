@@ -216,7 +216,7 @@ figure p{
 .top-footer2{
     background: #2BBECA;
     height: 100px;
-    font-size: 18px;
+    font-size: 24px;
     color: #ffffff;
 }
 .middle-footer{
@@ -239,20 +239,39 @@ figure p{
     align-content: center;
 }
 footer li a{
-    width: 30px;
-    height: 30px;
-    background: #E5E5E5;
+    width: 40px;
+    height: 40px;
+    background: #2296A1;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #818181;
+    color: #ffffff;
     margin: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 footer span{
     margin: 0 100px 0 100px;
 }
 footer ul{
     margin: 0 100px 0 100px;
+}
+footer div:first-child{
+    justify-content: center;
+}
+footer span:first-of-type{
+    margin: 0 15px 0 15px;
+}
+footer button:first-of-type{
+    text-transform: uppercase;
+    background: #1E828B;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    font-weight: normal;
+    border-radius: 3px;
+    border: solid 1px #176269;
+}
+footer li a:hover{
+    background: #1E828B;
 }
 /* End Footer */
