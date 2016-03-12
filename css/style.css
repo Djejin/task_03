@@ -341,7 +341,6 @@ footer button{
     padding: 12px 18px 12px 18px;
 }
 .grid {
-    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -408,4 +407,5 @@ footer{
 .end{
     font-size: 11px;
     color: #C0C0C0;
+    margin-right: 100px;
 }
